@@ -144,10 +144,10 @@ for (const [key, img] of Object.entries(heroSprites)) {
   img.onerror = () => console.error("FAILED HERO", key, img.src);
 }
 
-const SKELETON_BASE = "./assets/Enemies/Skeleton/";
-const GOBLIN_BASE = "./assets/Enemies/Goblin/";
-const FLYING_EYE_BASE = "./assets/Enemies/flying_eye/";
-const MUSHROOM_BASE = "./assets/Enemies/mushroom/";
+const SKELETON_BASE = "./assets/enemies/skeleton/";
+const GOBLIN_BASE = "./assets/enemies/goblin/";
+const FLYING_EYE_BASE = "./assets/enemies/flying_eye/";
+const MUSHROOM_BASE = "./assets/enemies/mushroom/";
 const MUSHROOM2_KEY = "mushroom_2";
 const MUSHROOM2_BASE = "./assets/enemies/mushroom_2/";
 const MUSHROOM2_RENDER_SCALE = 0.4;
